@@ -1,0 +1,157 @@
+*,
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+/*   box-sizing: border-box; */
+}
+
+body {
+  background-color: rgb(19, 19, 19);
+  box-sizing: border-box;
+/*   display: flex;
+  min-height: 100vh; */
+  
+}
+main{
+  display: flex;
+  place-items: center;
+  height: 100vh;
+}
+/* main {
+  display: grid;
+  grid-template-areas:
+    "a a b"
+    "a a b"
+    "c d d "
+    "c e e";
+  grid-template-columns: 200px 90px 200px;
+  grid-template-rows: 200px 90px 200px;
+  gap: 1em;
+  width: 30%;
+  margin: auto;
+  padding: 0.7em;
+} */
+.container{
+  display: grid;
+   grid-template-areas:
+    "a"
+     "b"
+     "c"
+     "d"
+     "e";
+  gap: .6em;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* main > div {
+  padding: 2em;
+} */
+
+.item-a {
+  background-color: red;
+  grid-area: a;
+  padding: 5em
+}
+
+.item-b {
+  background-color: orange;
+  grid-area: b;
+  padding: 3em;
+}
+
+.item-c {
+  background-color: green;
+  grid-area: c;
+  padding: 2em
+}
+
+.item-d {
+  background-color: steelblue;
+  grid-area: d;
+  padding: 3em;
+}
+
+.item-e {
+  background-color: steelblue;
+  grid-area: e;
+  padding: 3em;
+}
+
+@media screen and (max-width: 1440px){
+  main{
+    display: flex;
+    place-items: center;
+    height: 100vh;
+  }
+  .container{
+    display: grid;
+    grid-template-areas:
+      "a a a b"
+    "c c d d"
+    "c c e e";
+    gap: .6em;
+    width:50%;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 699px){
+  main{
+    display: flex;
+    place-items: center;
+    height: 100vh;
+  }
+  .container{
+    display: grid;
+    grid-template-areas:
+      "a"
+      "b"
+      "c"
+      "d"
+      "e";
+    gap: .7em;
+    width: 90%;
+    margin: 0 auto;
+  }
+  .item-a{
+    background-color: red;
+    padding: 3em
+  }
+  .item-b{
+    background-color: orange;
+    padding: 3em
+  }
+  .item-c{
+    background-color: green;
+    padding: 3em
+  }
+  .item-d{
+    background-color: steelblue;
+    padding: 3em
+  }
+  .item-e{
+    background-color: steelblue;
+    padding: 3em
+  }
+}
+
+/* button */
+.flex{
+  background-color: hsl(0, 0%, 95%);
+  border: 0;
+  border-radius: 20px;
+/*   padding-inline: 1.5rem; */
+  padding: .5em 1em;
+/*   padding-bottom: 0.7rem; */
+  text-decoration: none;
+  text-align: center;
+  color: red;
+}
+
+header{
+/*   margin: 2 auto; */
+  padding: 2em;
+  position: relative;
+}
