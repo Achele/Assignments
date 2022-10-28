@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+body{
+  background: linear-gradient(lightsalmon,white);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.form-wrapper {
+  width: 100%;
+  max-width: 35em;
+  margin: 5em auto;
+  background-color: rgba(0, 0, 0, 0.788);
+  padding: 2em;
+  color: aliceblue;
+  border-radius: 0.5em;
+}
+
+.reg-heading{
+  text-align: center;
+  padding: 2em 0 1em 0;
+}
+
+.reg-para{
+  text-align: center;
+  margin-bottom: 1.5em;
+}
+
+.reg-para a{
+  color: darksalmon;
+  padding: .5em;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+label{  
+  font-size: 1em;
+  font-weight: 600;
+}
+
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="date"],
+/* input[type="color"], */
+input[type="password"],
+select {
+  width: 100%;
+  padding: 1em 1.5em;
+  margin:  0  0 2em 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: darksalmon;
+  color: rgba(0, 0, 0, 0.788);
+  padding: 14px 20px;
+  /* margin-top: em; */
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+input[type="submit"]:hover{
+  background-color:white;
+}
+
+input[type="color"] {
+  margin:  0  0 2em 0;
+}
+
+/* SUCCESS PAGE STARTS */
+.succes-body {
+  background: linear-gradient( rgb(216, 229, 233),white);
+}
+
+.succes-wrapper {
+  width: 100%;
+  max-width: 500px;
+  margin: 6em auto;
+  background-color: lightblue;
+  padding: 2em;
+  text-align: center;
+  text-transform: uppercase;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.125);
+}
+
+.succes-wrapper img {
+  width: 150px;
+  height: 150px;
+  margin-top: 2em;
+}
+
+button {
+  display: block;
+  margin: 5em auto;
+  width: 50%;
+  padding: 1em 2em;
+  background-color: midnightblue;
+  border: none;
+  border-radius: 1em;
+}
+
+button a {
+  /* background-color: midnightblue; */
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  font-size: 1.5em;
+}
+
+/* LOGIN STARTS */
+.login {
+  background:linear-gradient(dodgerblue, white)
+}
+
+.icon {
+  text-align: center;
+  width: 100%;
+  font-size: 5em;
+}
+#login {
+  background-color: rgb(142, 184, 226);
+  width: 100%;
+  max-width: 35em;
+  margin: 5em auto;
+  padding: 2em;
+/*   color: aliceblue; */
+  border-radius: 0.5em;
+}
+
+
+.sign-in {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 3em;
+}
+
+.sign-in p {
+  padding: 1em;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+hr {
+  display: inline-block;
+  width: 35%;
+  color: aliceblue;
+}
+
+.fa-solidfa-circle-user {
+  display: block;
+  margin: 0 auto;
+}
+
+.login-para {
+  /* padding: 0.5em; */
+  margin-top: 0;
+  padding-top: 0;
+  text-align: center;
+}
+
+.login-para a {
+  /* text-decoration: none; */
+  cursor: pointer;
+  color: aliceblue;
+  margin: .3em;
+}
+
+.login-para a:hover{
+  color: navy;
+}
+
+.login-para span {
+  color: dodgerblue;
+}
+
+button#login {
+  width: 100%;
+  background-color: steelblue;
+  color: white;
+  padding:.8em 1em;
+  border: none;
+  border-radius: 1em;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 600;
+}
+
+button#login:hover {
+  background-color: white;
+  color: steelblue;
+}
+
+.password {
+  margin-left: 14em;
+}
+
+.password a {
+  text-decoration: none;
+  color: white;
+  cursor: pointer;
+}
+
+.password a:hover {
+  color: red;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://kit.fontawesome.com/9ccba42670.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="login">
+  <main class="form-wrapper" id="login">
+    <form action="">
+      <div class="icon">
+        <i class="fa-solid fa-circle-user"></i>
+      </div>
+      <div class="sign-in">
+        <hr />
+        <p>Sign in</p>
+        <hr />
+      </div>
+
+      <label for="email"></label>
+      <input type="email" name="email" id="email" placeholder="Email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"
+        required /><br />
+
+      <label for="pwd"></label><br />
+      <input type="password" id="pwd" name="pwd" placeholder="Password" required /><br />
+
+      <input type="checkbox" id="remember" name="remember" />
+      <label for="remember">Remember me</label>
+      <span class="password"><a href="#">Forgot password?</a></span><br />
+
+      <button id="login">Login</button>
+      <p class="login-para">
+        <span>Not registered?</span><a href="./index.html">Create an account</a>
+      </p>
+    </form>
+  </main>
+</body>
+
+</html>
